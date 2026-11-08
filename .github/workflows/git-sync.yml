@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: webfactory/ssh-agent
-      uses: webfactory/ssh-agent@v0.4.1
+      uses: webfactory/ssh-agent@v0.10.0
       with:
         ssh-private-key: ${{ secrets.BITBUCKET_SECRET }}
 
